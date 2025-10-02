@@ -27,7 +27,7 @@ function ProductList({ onHomeClick }) {
         image: "https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3530413_1280.jpg",
         description: "Filters formaldehyde and xylene from the air.",
         cost: "$12"
-      }
+      },
     ]
   },
 ];
