@@ -12,25 +12,60 @@ function ProductList({ onHomeClick }) {
   // Dispatch for redux actions
   const dispatch = useDispatch();
 
- const plantsArray = [
-  {
-    category: "Air Purifying Plants",
-    plants: [
-      {
-        name: "Snake Plant",
-        image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
-        description: "Produces oxygen at night, improving air quality.",
-        cost: "$15"
-      },
-      {
-        name: "Spider Plant",
-        image: "https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3530413_1280.jpg",
-        description: "Filters formaldehyde and xylene from the air.",
-        cost: "$12"
-      },
-    ]
-  },
-];
+  const plantsArray = [
+    {
+      category: "Air Purifying Plants",
+      plants: [
+        {
+          name: "Snake Plant",
+          image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
+          description: "Produces oxygen at night, improving air quality.",
+          cost: "$15"
+        },
+        {
+          name: "Spider Plant",
+          image: "https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3530413_1280.jpg",
+          description: "Filters formaldehyde and xylene from the air.",
+          cost: "$12"
+        }
+      ]
+    },
+    {
+      category: "Succulent Plants",
+      plants: [
+        {
+          name: "Aloe Vera",
+          image: "https://cdn.pixabay.com/photo/2021/08/13/22/35/plant-6544088_1280.jpg",
+          description: "Known for medicinal properties and air purification.",
+          cost: "$20"
+        },
+        {
+          name: "Jade Plant",
+          image: "https://cdn.pixabay.com/photo/2021/08/24/02/05/jade-plant-6569195_1280.jpg",
+          description: "Easy to care for with fleshy leaves.",
+          cost: "$18"
+        }
+      ]
+    },
+    {
+      category: "Flowering Plants",
+      plants: [
+        {
+          name: "Peace Lily",
+          image: "https://cdn.pixabay.com/photo/2016/11/22/21/49/lilies-1850750_1280.jpg",
+          description: "Removes mold spores and purifies the air.",
+          cost: "$22"
+        },
+        {
+          name: "African Violet",
+          image: "https://cdn.pixabay.com/photo/2016/11/12/15/23/african-violets-1819021_1280.jpg",
+          description: "Beautiful flowering plant suitable for indoors.",
+          cost: "$15"
+        }
+      ]
+    }
+  ];
+  
 
 
   // Handles clicking "Add to Cart"
